@@ -54,7 +54,7 @@ def parser(input,output):
         print("I can not write to file")
 
 
-arg_parser = argparse.ArgumentParser(description='Coverts draw.io XML to CSV with inerfaces')
+arg_parser = argparse.ArgumentParser(description='Converts draw.io XML to CSV with inerfaces')
 arg_parser.add_argument("--input","-I", required=True,type=str, help='The path to XML exported from draw.io ')
 arg_parser.add_argument("--output","-O",required=False,type=str,default="draw_io_parser_output.csv",help="The path to output csv file (default path is \"draw_io_parser_output.csv\")")
 

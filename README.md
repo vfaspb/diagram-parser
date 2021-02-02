@@ -1,13 +1,14 @@
 # diagram-parser
  Parse XML export from draw.io and convert arrows to cvs (Source, Description, Target)
- 
+ Works only for connected by arrow objects.
+
  # usage
  
 ```
 python .\draw_io_parser.py -h
 usage: draw_io_parser.py [-h] --input INPUT [--output OUTPUT]
 
-Coverts draw.io XML to CSV with inerfaces
+Converts draw.io XML to CSV with inerfaces
 
 optional arguments:
   -h, --help            show this help message and exit
